@@ -1,0 +1,10 @@
+.ContactSection1-subtitle , .contactData-title {
+    color: #204169;
+}
+.contact-icon{
+    color: #204169;
+}
+.ContactSendbtn:hover{
+    background-color: transparent;
+    color: #204169;
+}

@@ -1,0 +1,28 @@
+.HomeBookDetail{
+    padding-top: 50px;
+}
+.HomeBookDetail-card{
+    color: #1F3F65;
+    padding: 20px 15px 20px 15px;
+    border-bottom: 1px dashed #1F3F65 ;
+}
+.book a{
+    color: #1F3F65;
+    text-decoration: underline;
+}
+.title{
+    padding-bottom: 10px;
+}
+.HomeBookDetail-card:hover{
+    background-color: #F4F5F7;
+}
+
+@media(min-width:991px){
+    .book{
+        text-align: end;
+        padding-right: 30px;
+    }
+    .HomeBookDetail-card{
+        padding: 50px 0px 50px 0px;
+    }
+}

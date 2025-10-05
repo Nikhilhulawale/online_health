@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
+
+*{
+    font-family: "Maven Pro", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.nav-section{
+    padding: 30px 15px 30px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.icon-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.navIconList, .navIconBag{
+    background-color: #DFE3E9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mobile-Nav-list{
+    list-style: none;
+}
+.Mobile-Nav-items{
+    padding-bottom: 20px;
+}
+.Nav-link{
+    color: black;
+    font-weight: 500;
+}
+.navIconList a{
+    font-size: 20px;
+    color: #204169 ;
+}
+.navIconBag a{
+    font-size: 20px;
+    color: #204169;
+}
+.Nav-link:hover{
+    color: #204169;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #204169;
+}
+.navIconBag:hover{
+    background-color: #204169;
+}
+.navIconBag:hover i{
+    color: #DFE3E9
+}
+
+@media (min-width:768px){
+    .icon-div{
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+    }
+}
+
+@media (min-width:991px){
+    .Nav-list{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        column-gap: 60px;
+    }
+}

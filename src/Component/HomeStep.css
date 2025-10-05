@@ -1,0 +1,56 @@
+.HomeStep{
+    padding: 50px 0px 0px 0px ;
+}
+.HomeStep-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.img{
+    border-radius: 20px;
+    border: 10px solid #DFE3E9;
+}
+.stepCard-div{
+    border: 8px solid white;
+    border-radius: 15px;
+    padding: 50px 0px 50px 0px;
+    background-color: #DFE3E9;
+}
+.stepCard-detail{
+    color: #204169;
+    padding: 10px 0px 0px 20px ;
+}
+.heading{
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.visit{
+    color: #204169;
+    text-decoration: underline;
+}
+.stepCard-div:hover{
+    background-color: #204169;
+}
+.stepCard-div:hover .img{
+    border: 10px solid #204169;
+}
+.stepCard-div:hover .stepCard-detail{
+    color: white;
+}
+.stepCard-div:hover .visit{
+    color: white;
+}
+@media(min-width:768px){
+    
+}
+@media(min-width:991px){
+    .HomeStep-div{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+     .stepCard{
+        width: 400px;
+     }
+}

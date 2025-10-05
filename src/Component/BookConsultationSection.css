@@ -1,0 +1,85 @@
+.SubTitle, .Title{
+    color: #1A3555;
+}
+.doctor-img-div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.BookConsultationSection{
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 50px;
+}
+.doctor-img1{
+    border-radius: 15px;
+    width: 100px;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+}
+.doctor-img2{
+    width: 179px;
+    height: 318px;
+    object-fit: cover;
+    border-radius: 120px 15px 15px 15px;
+}
+.doctor-img3{
+    position: relative;
+    bottom: 70px;
+    width: 99px;
+    height: 239px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px 15px 15px 15px;
+}
+.doctor-img4{
+    width: 179px;
+    height: 156px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+.Btn{
+    background-color: #1A3555;
+    color: white;
+}
+.Btn:hover{
+    border: 2px solid #1A3555;
+}
+.FormData{
+    color: #1A3555;
+}
+
+@media(min-width:768px){
+    .BookConsultationSection{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media(min-width:991px){
+    .doctor-img-div{
+        column-gap: 30px;
+        row-gap: 10px;
+    }
+    .doctor-img1{
+        width: 200px;
+        height: 350px ;
+    }
+    .doctor-img2{
+        width: 295px;
+        height: 486px ;
+    }
+    .doctor-img3{
+        width: 205px;
+        height: 360px ;
+        position: relative;
+        bottom: 120px;
+    }
+    .doctor-img4{
+        width: 295px;
+        height: 240px ;
+    }
+}

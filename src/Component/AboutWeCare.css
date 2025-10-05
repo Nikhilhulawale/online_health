@@ -1,0 +1,109 @@
+.AboutWeCare{
+    padding-top: 80px;
+}
+.AboutWeCareImg{
+    border-radius: 25px;
+    border: 20px solid white;
+    width: 100%;
+    height: 340px;
+    background-image: url('/Images/Background-Images/AboutWeCareImg.webp');
+    background-size: cover;
+    background-position: center;
+}
+.AboutCarehead{
+    color: #204169;
+    text-align: center;
+}
+.AboutWeCareHeading{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.number{
+    font-size: 80px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.title{
+    font-weight: 600;
+}
+.AboutWeCare-card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #204169;
+}
+.AboutWeCareBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #204169;
+    border-radius: 15px;
+    width: 250px;
+    height: 60px;
+}
+.AboutWeCareBtn a{
+    color: white;
+    font-weight: 500;
+}
+.AboutWeCareBtn-div{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+.AboutWeCareBtn:hover{
+    background-color: transparent;
+    border: 2px solid #204169;
+}
+.AboutWeCareBtn:hover a{
+    color: #204169;
+}
+
+@media(min-width:768px){
+    .AboutWeCareImg{
+        width: 235px;
+        height: 800px;
+        border: 0px ;
+        border-radius: 15px 15px 35px 200px;
+    }
+    .AboutCarehead{
+        padding-left: 50px;
+    }
+    .AboutCarehead-div{
+        text-align: start;
+    }
+    .AboutWeCare-card{
+        display: flex;
+        column-gap: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+    }
+    .AboutWeCare-title-div{
+        text-align: left;
+    }
+    .title{
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+    }
+    .AboutWeCare-card{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media(min-width:991px){
+    .AboutWeCareImg{
+        width: 300px;
+        height:700px ;
+    }
+    .AboutCarehead{
+        padding-left: 80px;
+    }
+    .AboutWeCare{
+        padding-bottom: 80px;
+    }
+    .AboutWeCare-title-div{
+        padding-top: 0px;
+    }
+}

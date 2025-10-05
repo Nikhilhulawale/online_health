@@ -1,0 +1,58 @@
+.AboutHeroSection{
+    background: linear-gradient(to right, #F7F7F7 20%, rgba(14, 42, 71, 0) 100%), url("/Images/Background-Images/AboutHeroSection-BG.webp") no-repeat center center;
+    background-size: cover;
+    color: #204169;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+.AboutHeroSectionTitle{
+    padding-top: 20px;
+    font-weight: 700;
+}
+.AboutHeroSectionBtn{
+    background-color: #204169;
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutHeroSectionBtn a{
+    color: white;
+    font-weight: 500;
+}
+.AboutHeroSectionBtn:hover{
+    background-color: transparent;
+    border: 2px solid #204169;
+}
+.AboutHeroSectionBtn:hover a{
+    color: #204169;
+}
+
+@media(min-width:768px){
+    .AboutHeroSection{
+        padding-top: 100px;
+    }
+    .AboutHeroSectionTitle{
+        font-size:45px;
+        padding-right: 150px;
+    }
+    .AboutHeroSectionPara{
+        padding-right: 150px;
+    }
+}
+
+@media(min-width:991px){
+    .AboutHeroSectionTitle{
+        font-size:50px;
+        padding-right: 650px;
+    }
+    .AboutHeroSectionPara{
+        padding-right: 700px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+}

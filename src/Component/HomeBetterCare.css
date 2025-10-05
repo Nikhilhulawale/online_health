@@ -1,0 +1,69 @@
+.BetterCareHeading{
+    padding: 50px 0px 0px 0px;
+    color: #204169;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.BetterCareData{
+    padding: 30px 0px 0px 0px;
+    border: 20px solid white;
+}
+.title{
+    color: #204169;
+    font-weight: 700;
+}
+.detail{
+    color: #204169;
+}
+.BetterCareBtn-div{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.BetterCareBtn{
+    background-color: #204169;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BetterCareBtn:hover{
+    background-color: white;
+    border: 2px solid #204169;
+}
+.BetterCareBtn:hover a{
+    color: #204169;
+}
+.BetterCareBtn a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.BetterCareData-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F4F5F7;
+    border: 10px solid white;
+    border-radius: 15px;
+}
+
+@media(min-width:768px){
+    .BetterCareHeading{
+        font-size: 48px;
+        width: 450px;
+    }
+    .BetterCareHeading-div{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(min-width:991px){
+    .BetterCareHeading{
+        font-size: 48px;
+        width: 100%;
+    }
+}

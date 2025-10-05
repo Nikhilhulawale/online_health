@@ -1,0 +1,117 @@
+.hero-section{
+    background-color: #1B3657;
+    border: 10px solid white;
+    border-radius: 30px;
+}
+.Mobile-heroSectionH1{
+    margin: 0px;
+    padding: 30px 0px 8px 0px;
+    font-size: 40px;
+    font-weight:600 ;
+    color: white;
+    line-height: 0.9;
+}
+.Mobile-heroSectionp{
+    font-size: 12px;
+    color: white;
+    padding-bottom: 40px;
+}
+.HomeHeroSectionImg{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+.heroSectionPara{
+    color: white;
+    text-align: start;
+    padding: 30px 0px 0px 0px;
+}
+.heroSectionBtn{
+    padding:30px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.heroSectionBtn1{
+    background-color: white;
+    width: 275px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroSectionBtn1 a{
+    color: #1B3657;
+    font-size: 19px;
+    font-weight: 600;
+}
+.heroSectionBtn1:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.heroSectionBtn1:hover a{
+    color: white;
+}
+.heroSectionBtn2{
+    background-color: transparent;
+    width: 275px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroSectionBtn2:hover{
+    background-color: white;
+}
+.heroSectionBtn2:hover a{
+    color: #1B3657;
+}
+.heroSectionBtn2 a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media(min-width:768px){
+    .heroSectionH1{
+        text-align: start;
+        width: 550px;
+        padding: 50px 0px 40px 0px;
+        color: white;
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .HomeHeroSectionImg{
+        width: 600px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    .heroSectionPara{
+        width: 65%;
+        font-size: 18px;
+    }
+    .heroSectionBtn{
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+    }
+}
+
+@media(min-width:991px){
+    .hero-img{
+        padding-top: 70px;
+    }
+    .HomeHeroSectionImg{
+        border-radius: 20px;
+    }
+    .heroSectionPara{
+        padding-top: 0px;
+        width: 80%;
+    }
+    .hero-section{
+        padding: 50px 0px 50px 25px;
+    }
+}

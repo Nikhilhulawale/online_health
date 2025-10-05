@@ -1,0 +1,67 @@
+.AboutTeam-card{
+    color: #204169;
+    border-radius: 15px;
+    border: 5px solid white;
+    background-color: #F4F5F7;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.doctorImg{
+    border-radius: 15px;
+    height: 217px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.name-div{
+    padding-top: 20px;
+}
+.subtitle{
+    color: #204169;
+}
+.AboutTeamTitle{
+    color: #204169;
+    font-size: 48px;
+}
+.Name{
+    font-weight: 600;
+    font-size: 20px;
+}
+.Spl{
+    margin: 0px;
+    background-color: #DFE3E9;
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Spl p{
+    margin: 0px;
+}
+.emailID{
+    border-top: 1px dashed #204169;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.emailID a{
+    text-decoration: underline;
+    color: #204169;
+}
+.AboutTeam-card:hover{
+    background-color: #204169;
+}
+.AboutTeam-card:hover span, .AboutTeam-card:hover .Name, .AboutTeam-card:hover .emailID a, .AboutTeam-card:hover .detail{
+    color: white;
+} 
+.AboutTeam-card:hover .emailID{
+    border-top: 1px dashed white;
+}
+
+@media(min-width:768px){
+    .AboutTeam-card{
+        margin-bottom: 0px;
+    }
+}

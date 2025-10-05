@@ -1,0 +1,47 @@
+.title-div{
+    padding-top: 40px;
+}
+.Title{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.btn{
+    background-color: #204169;
+    width: 270px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    padding-bottom: 20px;
+}
+.btn a{
+    color: white;
+    font-weight: 500;
+}
+.btn:hover{
+    border: 2px solid #204169;
+}
+.btn:hover a{
+    color: #204169;
+}
+
+@media(min-width:768px){
+    .Title{
+        font-size: 50px;
+    }
+    .BookConsultationSection{
+        padding-top: 40px;
+    }
+}
+
+@media(min-width:991px){
+    .title-div{
+        padding-top: 150px;
+    }
+    .Title{
+        font-size: 60px;
+    }
+}

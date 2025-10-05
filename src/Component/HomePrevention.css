@@ -1,0 +1,68 @@
+.HomePrevention {
+    background: linear-gradient(to top, #12355a 10%, rgba(14, 42, 71, 0) 100%), url("/Images/Background-Images/HomePreventionImg.webp") no-repeat center center;
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 5px solid white;
+    width: 310px;
+    height: 385px;
+}
+.HomePrevention-div{
+    text-align: center;
+}
+.HomePreventionHeading{
+    padding: 200px 0px 30px 0px;
+    font-weight: 600;
+}
+.HomePreventionBtn{
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HomePreventionBtn-div{
+    padding-left: 40px;
+}
+.HomePreventionBtn a{
+    color: #ffffff;
+    font-weight: 600;
+}
+.HomePreventionBtn:hover{
+    background-color: white;
+}
+.HomePreventionBtn:hover a{
+    color: #12355a;
+}
+@media(min-width:768px){
+    .HomePrevention{
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .HomePreventionHeading{
+        padding: 200px 100px 30px 100px;
+        font-size: 56px;
+    }
+    .HomePreventionBtn-div{
+        padding-left: 280px;
+    }
+}
+
+@media(min-width:991px){
+    .HomePrevention{
+        height: 700px;
+    }
+    .HomePreventionHeading{
+        padding: 350px 250px 30px 250px;
+        font-weight: 700;
+        font-size: 70px;
+    }
+    .HomePreventionBtn-div{
+        padding-left: 500px;
+    }
+}

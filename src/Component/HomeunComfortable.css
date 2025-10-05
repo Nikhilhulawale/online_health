@@ -1,0 +1,58 @@
+.HomeunComfortable{
+    margin-top: 100px;
+    padding: 0px 0px 50px 15px;
+    color: white;
+    border-radius: 20px;
+    border: 10px solid white;
+    background-color: #1B3657;
+}
+.HomeunComfortable-title{
+    padding: 50px 0px 20px 0px;
+    border-bottom: 1px dashed white;
+}
+.HomeunComfortable-detail{
+    padding: 30px 0px 0px 0px;
+}
+.HomeunComfortableData{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.HomeUncomfortable{
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HomeUncomfortable a{
+    color: #1B3657;
+    font-weight: 600;
+}
+.HomeUncomfortable-div{
+    padding:20px 0px 0px 5px ;
+}
+.HomeUncomfortable:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.HomeUncomfortable:hover a{
+    color: white;
+}
+
+@media(min-width:991px){
+    .HomeunComfortable{
+        padding: 0px 100px 60px 100px;
+    }
+    .HomeunComfortable-title h1{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .HomeunComfortableData{
+        display: flex;
+        flex-direction: row;
+    }
+}
